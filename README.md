@@ -9,7 +9,7 @@ To build and run the application:
    
    Open the project in Visual Studio which supports .Net 8, build it and run.
 
-3. Linux:
+2. Linux:
    
    2.1 publish the project for Linux. Download the project to a windows machine, then open a command console window (use "Run as administrator) and navigate to the solution folder which contains the "MBAssignment" project:
       and run:
@@ -23,14 +23,14 @@ To build and run the application:
            % chmod +x your_application_name
        - Ensure the appropriate .NET runtime is installed on your Linux system if you chose a framework-dependent deployment.
 
-4. MacOS:
+3. MacOS:
 
    3.1 Install Visual Studio Code, and have the C# extension by Microsoft installed in VS Code.
    3.2 Verify that the .NET Core CLI tools are installed and accessible from your terminal. 
    3.3 Open the project, build and run it.
 
 
-5. Instructions for running the Application:
+4. Instructions for running the Application:
 
 When the application starts, a prompt ">" will show up in a console terminal for command input.
 
@@ -43,18 +43,22 @@ Commands:
 >exit       --> wait for all current running job to complete and terminate the application.
 <Ctr + C> key pressing  --> function the same as command "exit". 
 
-5. Output: if a file is valid, two files will be put into the output foler: 1. its compressed .gz file and its SHA256 checksum file.
+5. Output:
+   if a file is valid, two files will be put into the output foler: 1. its compressed .gz file and its SHA256 checksum file.
 
 6. Configuration:
+
    4.1 A configuration file, called "appSettings.json", is created under "Configuration" directory. When the application starts, it will be loaded before any command input.
    4.2 If the above seting file dose not exist, an instance of "AppSettings" will be created with the default values.
    4.3 a configuration can be changed through "set" command while application is running.
    4.2 When the application terminates, its currently used configurations will be saved to the file of "appSettings.json" for future use.
 
-7. Logs
+7. Logs:
+   
    There is a "logs" folder for applicaton file processing history and  error records: "err.txt".
 
 8. Unit Tests
+   
    Four xUnit testing cases are created to test SHA256 checksum generation and file validation methods.
 
 
