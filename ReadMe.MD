@@ -32,7 +32,7 @@ When the application starts, a prompt ">" will show up in a console terminal for
 
 Commands:
 
->run     --> start the file processing task
+>> run     --> start the file processing task
 
 >status  --> display numbers of total processed files processed, valid files, invalid file, and last N jobs, etc 
 
@@ -67,3 +67,4 @@ Commands:
 Notes:
 
   The methods about SHA_256 CheckSum generation and gz compressing are created based on online source.
+
