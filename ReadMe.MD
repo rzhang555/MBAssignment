@@ -40,7 +40,7 @@ Commands:
 
 >config     --> display current figurations
 
->exit       --> wait for all current running job to complete and terminate the application.
+>exit       --> wait for all current running jobs to complete and terminate the application.
 
 <Ctr + C> key pressing  --> function the same as command "exit". 
 
@@ -67,5 +67,6 @@ Commands:
 Notes:
 
   The methods about SHA_256 CheckSum generation and gz compressing are created based on online source.
+
 
 
