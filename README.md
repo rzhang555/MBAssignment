@@ -5,10 +5,12 @@ This project is a .Net 8 console application created with Visual Studio 2022
 
 To build and run the application:
 
-1. Windows
+1. Windows:
+   
    Open the project in Visual Studio which supports .Net 8, build it and run.
 
-2. Linux 
+3. Linux:
+   
    2.1 publish the project for Linux. Download the project to a windows machine, then open a command console window (use "Run as administrator) and navigate to the solution folder which contains the "MBAssignment" project:
       and run:
            C:.../MBAssignment> dotnet publish -c Release -r linux-x64 --self-contained true        
@@ -21,13 +23,14 @@ To build and run the application:
            % chmod +x your_application_name
        - Ensure the appropriate .NET runtime is installed on your Linux system if you chose a framework-dependent deployment.
 
-3. MacOS
+4. MacOS:
+
    3.1 Install Visual Studio Code, and have the C# extension by Microsoft installed in VS Code.
    3.2 Verify that the .NET Core CLI tools are installed and accessible from your terminal. 
    3.3 Open the project, build and run it.
 
 
-4. Instructions for running the Application:
+5. Instructions for running the Application:
 
 When the application starts, a prompt ">" will show up in a console terminal for command input.
 
