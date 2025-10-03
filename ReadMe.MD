@@ -33,10 +33,15 @@ When the application starts, a prompt ">" will show up in a console terminal for
 Commands:
 
 >run     --> start the file processing task
+
 >status  --> display numbers of total processed files processed, valid files, invalid file, and last N jobs, etc 
+
 >set <arg1> <arg2>   --> change configurations in state, such as input, output diretories, maximum file size, allowed file extensions. "set help" will provide the <arg> list.
+
 >config     --> display current figurations
+
 >exit       --> wait for all current running job to complete and terminate the application.
+
 <Ctr + C> key pressing  --> function the same as command "exit". 
 
 5. Output: 
@@ -60,4 +65,5 @@ Commands:
 
 
 Notes:
+
   The methods about SHA_256 CheckSum generation and gz compressing are created based on online source.
