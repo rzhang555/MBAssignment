@@ -18,8 +18,9 @@ namespace MBAssignment.Configurations
         public string logfile_name { set; get; } = "file_process_history.txt";
         public string logErrfile_name { set; get; } = "err.txt";
         public float MaxFileSizeMB { set; get; } = (float) 1.0;
-        public List<string> AllowedExtensions { set; get; } = ["txt", "doc"];
+        public List<string> AllowedExtensions { set; get; } = [".txt", ".doc"];
         public int Num_of_last_jobs { set; get; } = 10;
         public AppSettings() { }
     }
 }
+
